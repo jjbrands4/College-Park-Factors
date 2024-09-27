@@ -1,4 +1,4 @@
--- Script to calculate estimated in-season effects of parks on performance
+-- Script to calculate estimated in-season effects of parks on hit rates, then comparing to observed effects to create Park Factors
 
 -- Hits by venue
 select c.csVenueId, sum(AB) as AB, 
